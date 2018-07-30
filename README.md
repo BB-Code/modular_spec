@@ -73,7 +73,9 @@ define(function(require,exports,module){
   module.exports = value
   })
 ```
-    - 定义有依赖的模块
+
+  - 定义有依赖的模块
+
 ```javascript
 define(function(require,exports,module){
   var module = require('./module');//同步引入依赖模块
